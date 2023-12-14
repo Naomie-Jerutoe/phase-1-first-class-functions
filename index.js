@@ -1,14 +1,10 @@
 function receivesAFunction(callback){
   callback();
-  return 'The callback argument is called as a function';
-}
-
-const namedFunction = function (){
-  return 'This is a named function';
+  return 'This is a type of function declaration';
 }
 
 function returnsANamedFunction(){
-  return namedFunction; 
+  return receivesAFunction; 
 }
 
 function returnsAnAnonymousFunction(){
